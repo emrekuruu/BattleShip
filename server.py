@@ -21,8 +21,8 @@ def printGrid():
 
 #create some ships
 def createVerticalShip():
-  x = random.randint(1,row-1)
-  y = random.randint(1,column-1)
+  x = random.randint(1,row-2)
+  y = random.randint(1,column-2)
   grid[x,y] = 1
   grid[x+1,y]= 1
   grid[x-1,y] = 1
